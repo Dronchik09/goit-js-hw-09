@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css" />
     <title>Form</title>
-</head>
-<body>
-    <section>
-        <a href="./index-html">Go to home</a>
-    </section>
+  </head>
+  <body>
+    <div class="container">
+      <load ="partials/header.html" />
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     <script type="module" src="./js/2-form.js"></script>
-</body>
+  </body>
 </html>
