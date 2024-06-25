@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-  <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers.js"></script>
-  <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
-</head>
-<body>
-    <section>
-        <a href="./index-html">Go to home</a>
-    </section>
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <title>GALLERY</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/vendor-4842761a.js">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="1-gallery.html" class="nav-link">GALLERY</a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="2-form.html" class="nav-link">FORM</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+      <ul id="gallery" class="gallery"></ul>
+    </div>
     
-</body>
+  </body>
 </html>

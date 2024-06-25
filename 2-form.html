@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css" />
     <title>Form</title>
-  <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js"></script>
-</head>
-<body>
-    <section>
-        <a href="./index-html">Go to home</a>
-    </section>
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="1-gallery.html" class="nav-link">GALLERY</a>
+        </li>
+  
+        <li class="nav-item">
+          <a href="2-form.html" class="nav-link">FORM</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     
-</body>
+  </body>
 </html>
