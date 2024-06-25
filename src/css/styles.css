@@ -25,11 +25,15 @@ ul {
   padding: 0;
   list-style: none;
 }
+li{
+  list-style:none;
+}
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+
 }
 
 svg {
@@ -116,7 +120,8 @@ button {
 
 button:hover {
   background-color: #6c8cff;
-}.gallery {
+}
+.gallery {
   display: flex;
   flex-wrap: wrap;
   row-gap: 24px;

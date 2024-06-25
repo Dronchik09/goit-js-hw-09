@@ -1,6 +1,6 @@
 import imageData from "../img/gallery.json";
 import SimpleLightbox from "simplelightbox";
-  function makeImages(){
+  function makeImages(images){
     return images.map(({ preview, original, description }) =>
         `<li class="gallery-item"> <a href="${original}" class="big gallery-link"><img src="${preview}" alt="" title="${description}" class="gallery-image"/></a> </li>`
     )
